@@ -17,9 +17,17 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
-section > img {
-    box-shadow: 3px 3px 3px 3px;
-    border-radius: 3px 3px 3px 3px;
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+section > div > img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.400);
 }
 
 footer {
